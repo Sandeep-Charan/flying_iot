@@ -1,2 +1,2 @@
 # flying_iot
-## [Progress](.progress.md)
+## [Progress](./progress.md)
