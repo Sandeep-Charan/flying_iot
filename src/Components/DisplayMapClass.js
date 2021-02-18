@@ -60,6 +60,9 @@ class DisplayMapClass extends React.Component {
             Math.abs(coord.lng.toFixed(4)) + (coord.lng > 0 ? "E" : "W"),
         });
         //console.log(wp_arr[count].Latitude);
+        document.getElementById("lat").innerHTML = Math.abs(coord.lat.toFixed(4)) + (coord.lat > 0 ? "N" : "S");
+
+        document.getElementById("lon").innerHTML = Math.abs(coord.lng.toFixed(4)) + (coord.lng > 0 ? "E" : "W");
         console.log(wp_arr);
         console.log(count);
         //my_arr[count][0] = wp_arr[count].Latitude;

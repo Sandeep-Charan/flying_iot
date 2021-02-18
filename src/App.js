@@ -1,4 +1,4 @@
-import "./AdarshApp.css";
+import "./AApp.css";
 import "./Components/HeaderComponent";
 import HeaderComponents from "./Components/HeaderComponent.jsx";
 import SectionComponent from "./Components/SectionComponent.jsx";
@@ -8,6 +8,7 @@ import NavBar from "./Components/NavBar";
 //import PosForm from "./Components/PositionForm";
 import DisplayMapClass from "./Components/DisplayMapClass";
 import WaypointsSA from "./Components/WaypointsSA";
+import Parameters from "./Components/parameters";
 
 function App() {
   return (
@@ -23,8 +24,9 @@ function App() {
         <NavBar />
         <DisplayMapClass />
         <WaypointsSA />
+        <Parameters />
         <SectionComponent />
-
+        
         <MyFooter />
       </div>
     </div>
